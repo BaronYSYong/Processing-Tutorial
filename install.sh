@@ -1,5 +1,5 @@
 #!/bin/bash          
-echo This script will install Processing-3.3.6-linux64 on Ubuntu 16.04.
+echo 'This script will install Processing-3.3.6-linux64 on Ubuntu 16.04.'
 
 #create folder 
 mkdir /opt/Processing
@@ -24,7 +24,7 @@ Terminal=false
 Type=Application
 Categories=AudioVideo;Video;Graphics;' >  /usr/share/applications/processing.desktop
 
-#create a mime type for .pde files. (might be an issue ith arduino too?) 
+#create a mime type for .pde files. 
 echo '<?xml version="1.0" encoding="UTF-8"?>
 <mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
 <mime-type type="text/x-processing">
